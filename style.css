@@ -9,7 +9,6 @@
     background-image: -webkit-linear-gradient( left, rgba(0,168,255,0.5), rgba(185,0,255,0.5)), url('./img/bg-01.jpg');
     background-repeat: no-repeat;
     height: 100vh;
-    background-size: cover;
     background-position: center;
 }
 #facebookicon, #googleicon{
