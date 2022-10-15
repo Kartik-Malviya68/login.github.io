@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    transition-duration: 0.3s;
+    
+}
+#bg{
+    background-image: -webkit-linear-gradient( left, rgba(0,168,255,0.5), rgba(185,0,255,0.5)), url('./img/bg-01.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#facebookicon, #googleicon{
+    background-color: white;
+    padding: 10px;
+    width: 25px;
+    border-radius: 100px;
+    border: none;
+}
+img:hover{
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+.loginpage{
+    display: flex;
+    justify-content: space-evenly;
+}
+.loginsection{
+    display: flex;
+    align-items: center;
+
+}
+.form{
+    border-radius: 10px;
+    padding: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+    align-items: center;
+}
+h1{
+    font-weight: bold;
+    color: #4b2b54;
+    margin-bottom: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+input{
+    color: #4b2b54;
+    padding: 18px 75px 18px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+input:focus{  
+    outline: none;
+}
+::placeholder{
+    color: #4b2b54;
+}
+#email, #password{
+    border: none;
+    margin: 10px;
+}
+
+.sub{
+    margin: 15px;
+    display: flex;
+    background-color:#bd69d4;
+    padding:12px 47px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+.sub:hover{
+    box-shadow: #bd69d4 0px 7px 29px 0px;
+}
+p{  margin-top: 50px;
+    margin-bottom: 35px;
+    color: #999999;
+}
+.icons{
+    margin: 0px 0px;
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+}
+.signup{
+    margin-top: 110px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.link{
+    display: flex;
+    position: absolute;
+
+    
+}
+#w{
+    width: auto;
+    height: 50px;
+    margin-left: 35px;
+}
+.link p{
+    color: black;
+    font-weight: bold;
+}
+
+.signup:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 500px){
+    .form{
+        width: 200px;   
+        height: 400px; 
+    }
+    .signup{
+        margin-top: 30px;
+    }
+    p{
+        margin-top: 10px;
+        margin-bottom: 20px; 
+    }
+}
